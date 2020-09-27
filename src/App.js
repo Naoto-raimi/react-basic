@@ -8,6 +8,7 @@ import AppContext from "./contexts/AppContext";
 // import B from "./components/B";
 import BasicReducer from "./components/BasicReducer";
 import CompB from "./components/CompB";
+import Memo from "./components/Memo";
 
 const initialState = 0;
 const reducer = (currentState, action) => {
@@ -36,8 +37,9 @@ function App() {
           {/* <ApiFetch />
           <B /> */}
           {/* <BasicReducer /> */}
-          <h3>Count {count}</h3>
-          <CompB />
+          {/* <h3>Count {count}</h3>
+          <CompB /> */}
+          <Memo />
         </header>
       </div>
     </AppContext.Provider>
